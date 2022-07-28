@@ -7,6 +7,7 @@
     <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/1d3b2b974d.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- header section start -->
@@ -52,12 +53,12 @@
      <!-- Slider start -->
      <section>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+            <div class="carousel-inner ">
+              <div class="carousel-item active pb-5">
                 <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-md-block mb-5">
                     <h1>Get Started Digital <br> Learning</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                    <p class="d-none d-md-block d-lg-block">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
                     <button class="btn btn-primary">Get Started</button>
                   </div>
               </div>
@@ -65,15 +66,15 @@
                 <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-md-block mb-5">
                     <h1>Get Started Digital <br> Learning</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                    <p class="d-none d-md-block d-lg-block">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
                     <button class="btn btn-primary">Get Started</button>
                   </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item pb-5">
                 <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-md-block mb-5">
                     <h1>Get Started Digital <br> Learning</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                    <p class="d-none d-md-block d-lg-block">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
                     <button class="btn btn-primary">Get Started</button>
                   </div>
               </div>
@@ -99,106 +100,129 @@
     </section>
     <!-- Courses categories Stars -->
     <section class="container">
-        <div class="row row-cols-2">
-            <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+      <div class="container overflow-hidden">
+          <div class="row gx-3 gy-3">
+              <div class="col-md-12 col-lg-6">
+                  <div class=" border bg-light">
+                      <div class="row">
+                          <div class="col-md-5">
+                              <img class="h-100 w-100" src="./images/course/course-1.png" alt="">
+                          </div>
+                          <div class="col-md-7">
+                              <div class="pt-3 ps-2">
+                                  <h4 class="fs-5 fw-bold">Fundamental Of UI/UX Design</h4>
+                                  <p>Most designers are familiar with the concept of “design thinking” as a UX
+                                      process.</p>
+                                  <p class="text-info fw-bold fs-4">Price : $30</p>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text"><small class="text-muted">Price: 20$</small></p>
-                    </div>
-                  </div>
-                </div>
               </div>
-            <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+              <div class="col-md-12 col-lg-6">
+                  <div class="border bg-light">
+                      <div class="row">
+                          <div class="col-md-5">
+                              <img class="h-100 w-100" src="./images/course/course-2.png" alt="">
+                          </div>
+                          <div class="col-md-7 ps-2">
+                              <div class="pt-3 ps-2">
+                                  <h4 class="fs-5 fw-bold">Javascript Basic to advanced</h4>
+                                  <p>The modern JavaScript course for everyone! Master JavaScript with projects,
+                                      challenges and theory.</p>
+                                  <p class="text-info fw-bold fs-4">Price : $30</p>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Javascript Basic to advanced</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text"><small class="text-muted">Price: 20$</small></p>
-                    </div>
-                  </div>
-                </div>
               </div>
-            <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="row gx-3 gy-3 mt-2">
+              <div class="col-md-12 col-lg-6">
+                  <div class=" border bg-light">
+                      <div class="row">
+                          <div class="col-md-5">
+                              <img class="h-100 w-100" src="./images/course/course-3.png" alt="">
+                          </div>
+                          <div class="col-md-7 ps-2 pt-3">
+                              <div class="pt-3 ps-2">
+                                  <h3 class="fs-5 fw-bold">Fullstack Web Development</h3>
+                                  <p>You’ll learn the latest website coding skills from real-world programmers.
+                                      Whether you’re beginner or advanced.</p>
+                                  <p class="text-info fw-bold fs-4">Price : $30</p>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Fullstack Web Development</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text"><small class="text-muted">Price: 20$</small></p>
-                    </div>
-                  </div>
-                </div>
               </div>
-            <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+              <div class="col-md-12 col-lg-6">
+                  <div class="border bg-light">
+                      <div class="row">
+                          <div class="col-md-5">
+                              <img class="h-100 w-100" src="./images/course/course-4.png" alt="">
+                          </div>
+                          <div class="col-md-7 ps-2 pt-3">
+                              <div class="pt-3 ps-2">
+                                  <h3 class="fs-5 fw-bold">Digital Marketing</h3>
+                                  <p>Digital marketing specialists are in high demand. Join our Diploma in Digital
+                                      Marketing course</p>
+                                  <p class="text-info fw-bold fs-4">Price : $30</p>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Digital Marketing</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text"><small class="text-muted">Price: 20$</small></p>
-                    </div>
-                  </div>
-                </div>
               </div>
-            <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="row gx-3 gy-3 mt-2">
+              <div class="col-md-12 col-lg-6">
+                  <div class=" border bg-light">
+                      <div class="row">
+                          <div class="col-md-5">
+                              <img class="h-100 w-100" src="./images/course/course-5.png" alt="">
+                          </div>
+                          <div class="col-md-7 ps-2 pt-3">
+                              <div class="pt-3 ps-2">
+                                  <h3 class="fs-5 fw-bold">Photography Basic Rules</h3>
+                                  <p>Pictures say more than words: Learn how to understand photography as a medium
+                                      and how to use it consciously.</p>
+                                  <p class="text-info fw-bold fs-4">Price : $30</p>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Photography Basic Rules</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text"><small class="text-muted">Price: 20$</small></p>
-                    </div>
-                  </div>
-                </div>
               </div>
-            <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+              <div class="col-md-12 col-lg-6">
+                  <div class="border bg-light">
+                      <div class="row">
+                          <div class="col-md-5">
+                              <img class="h-100 w-100" src="./images/course/course-6.png" alt="">
+                          </div>
+                          <div class="col-md-7 pt-3 ps-2">
+                              <div class="pt-3 ps-2">
+                                  <h3 class="fw-bold fs-5">Motion Graphics</h3>
+                                  <p>An online course on how to bring almost any 3D character to life, whether it
+                                      is a human or an animal.</p>
+                                  <p class="text-info fw-bold fs-4">Price : $30</p>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Motion Graphics</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text"><small class="text-muted">Price: 20$</small></p>
-                    </div>
-                  </div>
-                </div>
               </div>
-
-        </div>
-    </section>
-    <!-- Courses categories end -->
-    <section class="text-center">
-        <button class="btn btn-primary">See more options</button>
-    </section>
+          </div>
+      </div>
+      <div class="text-center mt-5">
+          <button class="btn btn-primary px-3 py-2">See All Courses</button>
+      </div>
+  </section>
+   
     <!-- Working section start -->
     <section class="container mt-5">
         <div class="card mb-3">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-sm-12 col-md-4">
                 <img src="images/working.png" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-sm-12 col-md-8">
                 <div class="card-body ps-5">
                   <h5 class="card-title">Explore The elearning Institute</h5>
                   <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure. <br>
@@ -228,14 +252,45 @@
     </section>
     <!-- Working section end -->
     <!-- Register option start -->
-    <section class="container bg-primary">
-        <div class="d-flex align-items-center justify-content-between ">
-            <div>
+    <section class="container bg-primary mt-5">
+        <div class="d-flex py-5 row align-items-center justify-content-around ">
+            <div class="col-lg-7 text-light">
                 <h1>Ready to join?</h1>
                 <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
             </div>
-            <div class="me-5">
-                <button class="btn btn-primary bg-white text-info fw-bold">Register Now</button>
+            <div class=" col-lg-5">
+              <button class="btn bg-light text-primary px-3 py-2 fw-bold" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Register Now</button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Register Here</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"
+                              aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="mb-3">
+                              <label for="formGroupExampleInput" class="form-label">Name</label>
+                              <input type="text" class="form-control" id="formGroupExampleInput"
+                                  placeholder="Your name">
+                          </div>
+                          <div class="mb-3">
+                              <label for="formGroupExampleInput2" class="form-label">Email</label>
+                              <input type="text" class="form-control" id="formGroupExampleInput2"
+                                  placeholder="Your Email">
+                          </div>
+                          <input type="submit" class="btn btn-primary" value="Submit">
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary"
+                              data-bs-dismiss="modal">Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
             </div>
         </div>
     </section>
@@ -248,23 +303,23 @@
                     <h1>Meet Our Successfull <br> Students</h1>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
-                <div class="container d-flex gap-3">
-                    <div>
+                <div class="container row">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <img class="img-fluid" src="images/student/student-1.png" alt="">
                         <h2>Awlad Hossain</h2>
                         <p>UIUX Designer</p>
                     </div>
-                    <div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <img class="img-fluid"  src="images/student/student-2.png" alt="">
                         <h2>Jannatul Islam</h2>
                         <p>Motion Design</p>
                     </div>
-                    <div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <img class="img-fluid"  src="images/student/student-3.png" alt="">
                         <h2>Imran Hossain</h2>
                         <p>Graphic Designer</p>
                     </div>
-                    <div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <img class="img-fluid" s src="images/student/student-4.png" alt="">
                         <h2>Nishi Akter</h2>
                         <p>Web Developer</p>
@@ -345,7 +400,7 @@
             </section>
     <!-- FAQ end  -->
     <!-- Company logo start  -->
-    <section class="container">
+    <section class="container py-5 d-none d-md-none d-lg-block">
         <div class="text-center">
             <h1>
                 Trusted by over 800+ companies
